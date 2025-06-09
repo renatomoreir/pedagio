@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Pedagio - .NET 8.0 ",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/Thunders.TechTest.AppHost/bin/Debug/net8.0/Thunders.TechTest.AppHost.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Thunders.TechTest.AppHost",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }
+  ]
+}
