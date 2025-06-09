@@ -1,6 +1,6 @@
 ﻿
 
-# Pedagio 
+# Pedagio
 ```
 http://localhost:5373/swagger/index.html
 ```
@@ -9,11 +9,10 @@ http://localhost:5373/swagger/index.html
 ```
 https://localhost:17114/
 ```
-
+RabbitMq
+```
 http://localhost:51134/
-Username: guest
-Password: guest
-
+```
 ## API - Swagger
 ```
 http://localhost:5373/swagger/index.html
@@ -30,9 +29,7 @@ GET     ```http://localhost:5373/api/Utilizacoes/{id}```
 PUT     ```http://localhost:5373/api/Utilizacoes/{id}```
 DELETE  ```http://localhost:5373/api/Utilizacoes/{id}```
 
-
-
-## ConnectionStrings
+### ConnectionStrings
 
 "ConnectionStrings": {
     "DefaultConnection": "Server=localhost,1433;Database=ThundersTechTestDb;User Id=sa;Password=Mypassword1570!;TrustServerCertificate=True;",
